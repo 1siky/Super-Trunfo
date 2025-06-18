@@ -1,29 +1,16 @@
-## Super Trunfo: Comparador de Cartas – Nível Mestre
-Este projeto implementa uma versão avançada do clássico Super Trunfo, onde o usuário cadastra e compara cartas de cidades brasileiras com base em múltiplos atributos estatísticos. O código evoluiu para incorporar cálculos dinâmicos, indicadores de desempenho e uma métrica especial de "super poder".
+# Super Trunfo: Comparador de Cartas – Desafio Final
 
-## Versão Avançada
-Entrada de dados aprimorada com suporte a grandes valores populacionais (unsigned long int).
+Este projeto marca a fase mais avançada do Super Trunfo, permitindo que o usuário compare cartas de países com base em **dois atributos escolhidos dinamicamente**. Ele combina tudo o que foi aprendido nos níveis anteriores com estruturas de decisão mais sofisticadas, menus interativos e comparações estratégicas.
 
-Cálculo de indicadores analíticos:
+### 🔧 Funcionalidades principais
 
-- Densidade Populacional
-
-- PIB per capita
-
-Comparação automática entre os atributos numéricos das duas cartas:
-
-- População
-
-- Área
-
-- PIB
-
-- Pontos Turísticos
-
-- Densidade Populacional (onde a menor vence)
-
-- PIB per Capita
-
-- Super Poder
-
-## Exibição clara do vencedor de cada atributo, com base em operadores relacionais e lógica booleana.
+- Cartas pré-cadastradas com dados reais de países (ex: Brasil e Japão).
+- Cálculo automático dos indicadores:
+  - **Densidade Demográfica**
+  - **PIB per Capita**
+- Escolha de **dois atributos distintos** para comparação.
+- Comparação individual dos atributos com regra especial para Densidade (menor vence).
+- Cálculo da **soma dos atributos** para decidir a carta vencedora da rodada.
+- **Tratamento de empates** com mensagem clara.
+- Exibição detalhada dos resultados de cada comparação.
+- **Operadores ternários** e **menus interativos com `switch`** tornam o código legível e elegante.

@@ -2,7 +2,7 @@
 
 Este projeto marca a fase mais avançada do Super Trunfo, permitindo que o usuário compare cartas de países com base em **dois atributos escolhidos dinamicamente**. Ele combina tudo o que foi aprendido nos níveis anteriores com estruturas de decisão mais sofisticadas, menus interativos e comparações estratégicas.
 
-### 🔧 Funcionalidades principais
+###  Funcionalidades principais
 
 - Cartas pré-cadastradas com dados reais de países (ex: Brasil e Japão).
 - Cálculo automático dos indicadores:

@@ -26,4 +26,4 @@ Comparação automática entre os atributos numéricos das duas cartas:
 
 - Super Poder
 
-# Exibição clara do vencedor de cada atributo, com base em operadores relacionais e lógica booleana.
+## Exibição clara do vencedor de cada atributo, com base em operadores relacionais e lógica booleana.
